@@ -88,6 +88,7 @@ INC_FOLDERS += \
 $(SDK_ROOT)/components/nfc/ndef/generic/message \
 $(PROJ_DIR)/src/inc \
   $(PROJ_DIR)/lib/ble_controller  \
+  $(PROJ_DIR)/lib/sensor_controller \
   $(SDK_ROOT)/components \
   $(SDK_ROOT)/components/ble/ble_advertising \
   $(SDK_ROOT)/components/ble/ble_dtm \
