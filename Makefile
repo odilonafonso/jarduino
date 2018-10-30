@@ -12,6 +12,7 @@ $(OUTPUT_DIRECTORY)/nrf52832_xxaa.out: \
 SRC_FILES += \
   $(PROJ_DIR)/src/main.c \
   $(PROJ_DIR)/lib/ble_controller/ble_controller.c \
+  $(PROJ_DIR)/lib/sensor_controller/sensor_controller.c \
   $(SDK_ROOT)/components/ble/common/ble_advdata.c \
   $(SDK_ROOT)/components/ble/common/ble_conn_params.c \
   $(SDK_ROOT)/components/ble/common/ble_srv_common.c \
